@@ -89,7 +89,7 @@ git fetch <URL> <COMMIT>
 git cherry-pick FETCH_HEAD
 git log
 ```
-did it work?
+did it work?  Yes it did!!!
 
 
 ## super advanced stuff
