@@ -85,7 +85,7 @@ to verify that we are in sync with the remote repo
 Let's say there is a commit that you want to pull a commit... maybe this one...
 
 ```
-git fetch <URL> <COMMIT>
+git fetch https://github.com/gee-one/bit_banger d7dd8adcc2fade7b3a05480239e7e3e6a9cdf634
 git cherry-pick FETCH_HEAD
 git log
 ```
