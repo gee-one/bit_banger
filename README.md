@@ -1,6 +1,8 @@
 # bit banger
 A short git tutorial for bit bangers and git kangers
 
+This is not a full tutorial on git, but more like a crash course for someone who is trying to build an android rom.
+
 
 ## Starting out
 So, you want to build a rom, but you don't know git...
