@@ -111,3 +111,8 @@ did it work?
 ```
 git diff
 ```
+
+
+## Congrats, you are now ready to take the red pill
+
+[Advanced! topics](<https://github.com/gee-one/bit_banger/blob/main/ADVANCED.md/>)
