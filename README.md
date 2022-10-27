@@ -4,6 +4,7 @@ A short git tutorial for bit bangers and git kangers
 
 ## Starting out
 So, you want to build a rom, but you don't know git...
+
 <insert stuff about creating a git account, ssh keys, pgp keys>
 
 
@@ -38,6 +39,20 @@ git init .
 
 ## so now what....  how to work with and manipulate your repo
 
+### git status
+```
+git status
+```
+This will show you what is happening in your repo.
+
+
+### git diff
+```
+git diff
+```
+This will show you any uncommited changes, or the last change that was committed if the repo is clean.
+
+
 ### git add/git commit
 
 make some changes to files, or even create new files and folder.  you know do some coding stuffs.
@@ -48,15 +63,18 @@ git add .
 ```
 You can also name individual files, if you only want to add specific ones
 
+```
+git rm <files or .>
+```
+This will tell git that you want to untrack files.  It doesn't delete the file, git just stops tracking it as part of the repo.
+
+
 Then tell git that you want to add the changes to your repo
 
 ```
 git commit -a
 ```
 The -a flag tells git to add all tracked files.  You can also specify individual files, if that is all you want to add to one commit.
-
-
-< need git rm >
 
 
 ### git remote
@@ -90,7 +108,9 @@ git cherry-pick FETCH_HEAD
 git log
 ```
 did it work?
-
+```
+git diff
+```
 
 ## super advanced stuff
 
