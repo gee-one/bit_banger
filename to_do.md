@@ -11,3 +11,7 @@
 ### git reset
 
 ### split tutorial into basic and advanced
+
+### git checkout/switching branches
+
+### common repo stuff
